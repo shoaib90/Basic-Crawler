@@ -163,9 +163,9 @@ import sys
 ## it takes 3 required parameters 'host', 'user', 'passwd'
 db = mysql.connect(
     host = "localhost",
-    user = "Shoaib",
-    passwd = "pass@123",
-    database = "ccrawler",
+    user = "",
+    passwd = "",
+    database = "",
     auth_plugin = 'mysql_native_password'
 )
 
